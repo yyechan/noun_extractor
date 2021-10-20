@@ -1,2 +1,2 @@
 # noun_extractor
-OOV ( Out Of Vocabulary ) , Keyword Extractor
+soynlp를 이용한 키워드, OOV 추출기 
