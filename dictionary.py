@@ -6,7 +6,7 @@ class Dictionary:
 
     def load_dict(self, file_name):
         with open('data/dict/' + file_name, 'rb') as f:
-            data = utils.pickle.load(f)
+            self.data = utils.pickle.load(f)
 
     def get_data(self):
-        return data
+        return self.data
