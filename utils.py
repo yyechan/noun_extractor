@@ -17,7 +17,7 @@ def parse_dict():
                 continue
             norm[text] = 1
 
-    with open('/data/parsed_dict.pkl','wb') as f:
+    with open('/data/dict/parsed_dict.pkl','wb') as f:
         pickle.dump(norm,f)
 
 
